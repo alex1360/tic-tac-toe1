@@ -1,19 +1,46 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
 body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 70px;
+}
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+button {
+    font-size: 20px;
+    height: 5vh;
+    border-spacing: 0vmin;
+    text-align: center;
+    width: 15vh;
+    color: rgb(40, 31, 124);
+    background-color: rgb(65, 160, 224);
+    margin-top: 30px;
+    padding: 1vmin;
+
+}
+
 
 section.board {
     display: grid;
-    grid-template-rows: repeat(3, 10vmin);
-    grid-template-columns: repeat(3, 10vmin);
+    grid-template-rows: repeat(3, 15vmin);
+    grid-template-columns: repeat(3, 15vmin);
     grid-gap: 0vmin;
 }
 
 div {
-    border: 3px solid black;
+    border: 3px solid rgb(90, 139, 245);
     font-size: 8vmin;
     text-align: center;
     vertical-align: middle;
+    cursor: pointer;
 }
