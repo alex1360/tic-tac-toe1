@@ -7,10 +7,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(241, 214, 214);
 }
 h1 {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    color: rgb(27, 53, 78);
+    margin: 5vmin;
+    /* padding-bottom: 0vmin; */
+    /* position: initial; */
+    background-color: rgb(242, 245, 225);
 }
 h2 {
     font-family:Arial, Helvetica, sans-serif;
@@ -28,6 +34,12 @@ button {
     padding: 1vmin;
 
 }
+footer {
+    color: rgb(34, 0, 255);
+    font-family: fantasy;
+    margin: 3vmin;
+
+}
 
 
 section.board {
@@ -43,4 +55,7 @@ div {
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
+}
+div:hover {
+    background-color: rgb(178, 208, 216);
 }
